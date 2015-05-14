@@ -7,8 +7,8 @@
     "npm": "latest"
   },
   "dependencies": {
-    "ensemblejs": "0.0.9",
-    "ensemblejs-client": "0.0.9"
+    "ensemblejs": "^2.1.0",
+    "ensemblejs-client": "^1.1.0"
   },
   "devDependencies": {
     "browserify": "^8.1.1",
