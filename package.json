@@ -7,8 +7,7 @@
     "npm": "latest"
   },
   "dependencies": {
-    "ensemblejs": "^4.2.0",
-    "ensemblejs-client": "^2.0.0"
+    "ensemblejs": "^5.0.0-beta-rc2"
   },
   "devDependencies": {
     "browserify": "^8.1.1",
@@ -41,7 +40,8 @@
           "compileDebug": false,
           "pretty": false
         }
-      ]
+      ],
+      "require-globify"
     ]
   },
   "browserify-shim": {

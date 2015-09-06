@@ -1,10 +1,10 @@
 'use strict';
 
 module.exports = {
-  type: 'View',
+  type: 'OnReady',
   deps: [],
-  func: function () {
-    return function () {
+  func: function MyView () {
+    return function setup () {
     };
   }
 };
