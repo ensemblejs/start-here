@@ -12,6 +12,7 @@ var plumber = require('gulp-plumber');
 var sourcemaps = require('gulp-sourcemaps');
 var transform = require('vinyl-transform');
 var fs = require('fs');
+var getRepoInfo = require('git-repo-info');
 
 var paths = {
   js: ['game/**/*.js', '!game/js/gen/**'],
@@ -56,6 +57,7 @@ function generateEntrypointFile (mode, done) {
   fromFile.on('end', function() {
       toFile.write('\n');
       toFile.write('entryPoint.set("GameMode", "' + mode + '");');
+      toFile.write('entryPoint.set("Commit", "' + getRepoInfo().sha + '");');
       toFile.write('\n');
       toFile.end('entryPoint.run();');
       done();
