@@ -7,7 +7,7 @@
     "npm": "latest"
   },
   "dependencies": {
-    "ensemblejs": "^6.0.0-develop-4",
+    "ensemblejs": "6.0.0-develop-6",
     "gamepad-api-mappings": "^4.0.0",
     "jade": "^1.11.0"
   },
