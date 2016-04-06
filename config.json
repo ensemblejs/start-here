@@ -1,0 +1,8 @@
+{
+  "peerjs": {
+    "debugLevel": 3
+  },
+  "ensemble": {
+    "autoSaveThrottle": 20
+  }
+}
