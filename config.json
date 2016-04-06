@@ -4,5 +4,8 @@
   },
   "ensemble": {
     "autoSaveThrottle": 20
+  },
+  "logging": {
+    "logLevel": "info"
   }
 }
