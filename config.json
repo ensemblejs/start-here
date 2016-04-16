@@ -1,11 +1,2 @@
 {
-  "peerjs": {
-    "debugLevel": 3
-  },
-  "ensemble": {
-    "autoSaveThrottle": 20
-  },
-  "logging": {
-    "logLevel": "info"
-  }
 }
